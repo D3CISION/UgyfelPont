@@ -1,0 +1,28 @@
+.vezerlo-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elonezet-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .elonezet-container{
+        width:45rem;
+    }
+
+    .vezerlo-container{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}

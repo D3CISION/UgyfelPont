@@ -1,0 +1,59 @@
+.statistic{
+    background-color: red;
+    display: flex;
+    width: 10px;
+}
+#chart{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly;
+    background-color: aqua;
+    padding: 10px;
+}
+.stat-cont{
+    display: flex;
+    flex-direction: column;
+}
+#left-column{
+    grid-area: left-column;
+    background-color: beige;
+    margin: 10px;
+}
+#right-column{
+    grid-area: right-column;
+    background-color: rgb(253, 242, 177);
+    margin: 10px;
+    padding: 20px;
+}
+.select-type{
+    padding: 20px;
+
+}
+@media screen and (min-width: 768px) {
+    .stat-cont{
+        display: grid;
+        grid-template-columns: 0.3fr 0.7fr;
+        grid-template-areas: 
+        "left-column  right-column";
+    }
+    .statistic{
+        width: 3vw;
+    }
+    #chart{
+        gap: 20px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .statistic{
+        width: 3.5vw;
+    }
+    #chart{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-evenly;
+        background-color: aqua;
+        padding: 10px;
+    }
+}

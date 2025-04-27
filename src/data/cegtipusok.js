@@ -1,0 +1,1 @@
+export const cegTipusok = ["Egyéni vállalkozás", "Egyéni cég", "Betéti társaság", "Korlátolt felelősségű társaság", "Közkereseti társaság", "Részvénytársaság"]

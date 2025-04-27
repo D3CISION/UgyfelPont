@@ -1,0 +1,47 @@
+:root{
+  --MenuFont: #ffffff;
+  --Button:  #ffffff;
+  --TervezzButton:  #ff0000;
+  --StatColumn: #fff;
+  --header-background: 	#192841;
+  --header-text: #c5cacd;
+  --background: #152238; 
+  --card-color: #1c2e4a;
+  --text-color: #c5cacd;
+  --button-color: #2a3f61;
+  --border-color: #dee2e6;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --button-hover: #131e31;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  overflow-x: hidden;
+}
+*{
+  font-family: sans-serif;
+}
+button{
+  background-color: var(--button-color);
+  color: var(--text-color);
+  border: #192841 3px solid;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #131e31;
+}
+input{
+  background-color: var(--button-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  
+}
+
+#my-tooltip {
+  background-color: rgba(255, 255, 255) !important;
+  color: #333 !important;
+  border: 2px solid black !important;
+  border-radius: 5px !important;
+  padding: 5px 10px !important;
+}
