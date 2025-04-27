@@ -1,0 +1,9 @@
+npm i vite@latest
+npm i react-dom
+npm i react-router-dom
+npm i react-toastify
+npm i js-cookie
+npm i @mui/material
+npm i @mui/x-charts
+npm i @emotion-react
+npm i @emotion/styled
